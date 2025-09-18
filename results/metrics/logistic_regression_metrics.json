@@ -1,0 +1,16 @@
+{
+  "logistic_regression": {
+    "cv_accuracy_mean": 0.7913273488389766,
+    "cv_accuracy_std": 0.0028235415007548626,
+    "val_accuracy": 0.7916708345837085,
+    "train_time": 0.6031365394592285,
+    "cv_time": 2.318525552749634,
+    "n_iterations": 6,
+    "coefficients_stats": {
+      "mean": 0.012708559536346045,
+      "std": 1.0101496431464219,
+      "min": -7.0039514162184,
+      "max": 5.255810336220643
+    }
+  }
+}

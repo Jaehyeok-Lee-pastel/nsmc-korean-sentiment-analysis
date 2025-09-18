@@ -1,0 +1,14 @@
+{
+  "naive_bayes": {
+    "cv_accuracy_mean": 0.7934529931322223,
+    "cv_accuracy_std": 0.0026726785593692098,
+    "val_accuracy": 0.7925377613283985,
+    "train_time": 0.011994600296020508
+  },
+  "ensemble": {
+    "cv_accuracy_mean": 0.7941865577888138,
+    "cv_accuracy_std": 0.0025764854328768016,
+    "val_accuracy": 0.7940048681271048,
+    "train_time": 0.6161377429962158
+  }
+}

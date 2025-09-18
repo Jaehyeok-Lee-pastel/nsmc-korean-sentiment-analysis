@@ -1,0 +1,31 @@
+{
+  "model_name": "naive_bayes_v1",
+  "model_type": "MultinomialNB",
+  "evaluation_date": "2025-09-18T11:23:38.379346",
+  "validation_performance": {
+    "accuracy": 0.7925377613283985,
+    "precision_positive": 0.8222664895971669,
+    "recall_positive": 0.7450862414761332,
+    "f1_positive": 0.7817760942760943,
+    "precision_negative": 0.768023361927359,
+    "recall_negative": 0.839752544402315,
+    "f1_negative": 0.8022878932316492,
+    "macro_avg_f1": 0.7920319937538718
+  },
+  "cross_validation": {
+    "cv_mean": 0.7934529931322223,
+    "cv_std": 0.0026726785593692098,
+    "cv_scores": [
+      0.7911890968199058,
+      0.7927312132705372,
+      0.7950235485349894,
+      0.7905135045015005,
+      0.797807602534178
+    ]
+  },
+  "training_info": {
+    "train_time": 0.014994144439697266,
+    "cv_time": 0.12103509902954102,
+    "alpha": 1.0
+  }
+}

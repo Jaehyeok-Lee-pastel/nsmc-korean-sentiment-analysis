@@ -1,0 +1,42 @@
+{
+  "model_name": "ensemble_v1",
+  "model_type": "soft_voting_classifier",
+  "components": [
+    "naive_bayes",
+    "logistic_regression"
+  ],
+  "evaluation_date": "2025-09-18T11:10:26.100149",
+  "validation_performance": {
+    "accuracy": 0.7940048681271048,
+    "precision_positive": 0.8246561159591776,
+    "recall_positive": 0.7454873646209387,
+    "f1_positive": 0.7830758426966292,
+    "precision_negative": 0.768838423705143,
+    "recall_negative": 0.8422803166367325,
+    "f1_negative": 0.8038854675893594,
+    "macro_avg_f1": 0.7934806551429943
+  },
+  "cross_validation": {
+    "cv_mean": 0.7941865577888138,
+    "cv_std": 0.0025764854328768016,
+    "cv_scores": [
+      0.7922727462176468,
+      0.7926478556245572,
+      0.7956070520568499,
+      0.7918056018672891,
+      0.7985995331777259
+    ]
+  },
+  "training_info": {
+    "train_time": 0.6161377429962158,
+    "cv_time": 2.4375364780426025,
+    "voting_type": "soft",
+    "weights": null
+  },
+  "component_performance": {
+    "naive_bayes_accuracy": 0.7925377613283985,
+    "logistic_regression_accuracy": 0.7916708345837085,
+    "improvement_over_nb": 0.001467106798706319,
+    "improvement_over_lr": 0.002334033543396341
+  }
+}
